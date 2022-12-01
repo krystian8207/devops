@@ -12,6 +12,7 @@ RoxygenNote: 7.2.0
 Imports:
     shiny,
     dplyr,
+    purrr,
     pkgload,
     magrittr,
     shinydashboardPlus
