@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Which docker image tag we want to use
-export IMAGE_VERSION=1.7
+export IMAGE_VERSION=1.5
 export IMAGE=krystian8207/rst:$IMAGE_VERSION
 
 if [[ "$OSTYPE" == "msys" ]]; then
