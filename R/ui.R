@@ -2,7 +2,7 @@
 ui <- shinydashboardPlus::dashboardPage(
   options = list(sidebarExpandOnHover = TRUE),
   header = shinydashboardPlus::dashboardHeader(
-    title = "Cool App"
+    title = "Cool App" |> shiny::h3(class = "dropdown", style = "display: inline;")
   ),
   sidebar = shinydashboardPlus::dashboardSidebar(
     "Sidebar",
