@@ -5,10 +5,16 @@
 - R
 - RStudio
 - R libraries (check DESCRIPTION)
+- docker
 
 ## Running
 
-1. Open coolapp.Rproj to open.
-2. Make sure you have R packages updated running `renv::restore()`.
-3. Open app.R script.
-4. Click Run App button.
+1. Run `./dev.sh run`
+2. Open app.R script.
+3. Click Run App button.
+
+## After updating packages
+
+1. Run `renv::snapshot()`
+2. Run in terminal `./dev.sh commit <version>`
+3. Run `./dev.sh push`
